@@ -1,0 +1,214 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+body {
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+div .jumbotron {
+    margin-top: 10px;
+    border: 3px solid #3dbd99;
+}
+
+.info {
+    border-left: 3px solid #3dbd99;
+    background: #f6f6f6;
+    margin-top: 15px;
+}
+
+.social {
+    float: right;
+    margin: auto;
+}
+
+.left-menu ul a,
+.left-menu ul a:link,
+.left-menu ul a:visited {
+    display: block;
+    color: #848889;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+@media (min-width: 1200px) {
+    .newsletter {
+        position: relative;
+        width: 401px;
+        left: 66%;
+    }
+
+    .info-right {
+        margin-right: 45px;
+    }
+
+    .left-menu {
+        font-family: 'Lato', sans-serif;
+        font-size: 18px;
+        width: 200px;
+        padding-left: 2%;
+    }
+
+    .left-menu ul {
+        margin-top: 15%;
+        padding: 0;
+        position: absolute;
+        background: #fff;
+        list-style-type: none;
+    }
+
+    .left-menu ul li {
+        border-left: 3px solid #d7d8da;
+        width: 150px;
+    }
+
+    .left-menu ul li a {
+        padding: 10px 20px;
+    }
+
+    .left-menu ul li:hover {
+        border-left: 3px solid #3dbd99;
+        background: #f6f6f6;
+    }
+
+    .left-menu ul li:hover a {
+        color: #3dbd99;
+    }
+
+    .logo {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .newsletter {
+        position: relative;
+        width: 401px;
+        left: 59%;
+    }
+
+    .left-menu {
+        font-family: 'Lato', sans-serif;
+        font-size: 18px;
+        width: 200px;
+        padding-left: 2%;
+    }
+
+    .left-menu ul {
+        margin-left: 190px;
+        margin-top: 70px;
+        padding: 0;
+        position: absolute;
+        background: #fff;
+        list-style-type: none;
+    }
+
+    .left-menu ul li {
+        display: inline-block !important;
+        border-left: 3px solid #d7d8da;
+        width: 150px;
+    }
+
+    .left-menu ul li a {
+        padding: 10px 20px;
+    }
+
+    .left-menu ul li:hover {
+        border-left: 3px solid #3dbd99;
+        background: #f6f6f6;
+    }
+
+    .left-menu ul li:hover a {
+        color: #3dbd99;
+    }
+}
+
+@media (max-width: 991px) {
+    .float-right {
+        float: right;
+        width: 360px;
+    }
+
+    .float-left {
+        float: left;
+        width: 360px;
+    }
+
+    .info-right {
+        margin-right: auto;
+    }
+
+    .newsletter {
+        position: relative;
+        width: 401px;
+        left: 46%;
+    }
+}
+
+@media (max-width: 768px) {
+    .info-right {
+        margin-right: 0;
+    }
+
+    .float-right {
+        float: none;
+        width: auto;
+    }
+
+    .float-left {
+        float: none;
+        width: auto;
+    }
+
+    .left-menu {
+        font-family: 'Lato', sans-serif;
+        font-size: 18px;
+        width: 150px;
+    }
+
+    .left-menu ul {
+        list-style-type: none;
+        margin-left: 35%;
+        margin-top: 2%;
+        padding: 0;
+        background: transparent;
+    }
+
+    .left-menu ul li {
+        display: inline-block !important;
+        padding: 0;
+        margin: 0;
+        width: 50px;
+    }
+
+    .left-menu ul li a {
+        padding: 0;
+    }
+
+    .left-menu li a:hover {
+        background-color: transparent;
+        color: gray;
+    }
+
+    .left-menu li a i {
+        display: none;
+    }
+
+    div .jumbotron {
+        margin-top: 35px;
+    }
+
+    .logo {
+        margin-top: 8%;
+        margin-left: 35%;
+    }
+
+    .newsletter {
+        position: relative;
+        width: 401px;
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
