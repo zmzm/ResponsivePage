@@ -19,8 +19,11 @@ div .jumbotron {
 }
 
 .social {
+    position: relative;
     float: right;
-    margin: auto;
+    top: -50px;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 .left-menu ul a,
@@ -30,6 +33,29 @@ div .jumbotron {
     color: #848889;
     text-decoration: none;
     font-weight: 300;
+}
+
+.copy {
+    width: 215px;
+    margin-top: 10px;
+}
+
+.footer-menu {
+    width: 235px;
+}
+
+.footer-menu ul {
+    padding-left: 0;
+}
+
+.footer-menu ul li {
+    display: inline !important;
+}
+
+.footer-menu ul > li:not(:last-child):after {
+    content: "|";
+    color: black;
+    padding-left: 4px;
 }
 
 @media (min-width: 1200px) {
@@ -210,5 +236,33 @@ div .jumbotron {
         left: 0;
         margin-left: auto;
         margin-right: auto;
+    }
+}
+
+@media (max-width: 445px) {
+    .logo {
+        margin-top: 12%;
+        margin-left: 27%;
+    }
+
+    div .jumbotron {
+        margin-top: 25px;
+    }
+
+    .left-menu ul {
+        list-style-type: none;
+        margin-left: 28%;
+        margin-top: 2%;
+        padding: 0;
+        background: transparent;
+    }
+
+    .newsletter {
+        /* ASD ASD ASD ASD ASD ASD ASD ASD ASD ASD */
+    }
+
+    .newsletter label {
+        display: block;
+        width: 45%;
     }
 }
